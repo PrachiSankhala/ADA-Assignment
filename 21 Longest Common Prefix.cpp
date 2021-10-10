@@ -1,3 +1,7 @@
+/*[21] Given the array of strings arr[], write a program to find 
+the longest common prefix string which is the prefix of all 
+the strings in the array.*/
+
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;

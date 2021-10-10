@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     int n,k;
     cin>>n>>k;
@@ -56,3 +55,8 @@ int main() {
     cout<<-1;
 	return 0;
 }
+
+
+//input 5 2
+//      5 6 7 2 1 
+//output :- 3
