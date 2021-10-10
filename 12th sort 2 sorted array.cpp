@@ -1,3 +1,6 @@
+/*[12] You are given two sorted arrays arr1[] and arr2[] of sizes m
+and n respectively. Write a program to merge them in such a 
+way that the resultant array is sorted too.*/
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -25,3 +28,7 @@ int main() {
     }
 	return 0;
 }
+
+//input 4 5 
+// a= 1 2 8 10      b= 3 4 5 6 9
+//output   c= 1 2 3 4 5 6 8 9 10

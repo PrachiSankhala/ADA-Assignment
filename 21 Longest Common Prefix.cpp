@@ -29,3 +29,5 @@ int main() {
     cout<<ans;
 	return 0;
 }
+//input a=["abcd","ab","abc","abcde"]
+//output   ab

@@ -42,3 +42,6 @@ int main() {
     preOrder(root);
 	return 0;
 }
+
+//input array 1 2 3 4 5 
+//output  3 2 1 4 5

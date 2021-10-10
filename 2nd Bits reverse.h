@@ -1,4 +1,6 @@
-#include <iostream>
+/*[2] Given a non-negative integer num, write a program to 
+return the number obtained after reversing the bits of num.
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
@@ -15,3 +17,6 @@ int main() {
 	cout<<n;
 	return 0;
 }
+
+//input 4 
+//output 1

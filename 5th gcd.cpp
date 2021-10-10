@@ -1,3 +1,7 @@
+/*[5] Given two non-negative integers num1 and num2, write a 
+program to find the greatest common divisor (GCD) of both the 
+numbers.*/
+
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;

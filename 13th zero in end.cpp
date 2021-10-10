@@ -1,3 +1,6 @@
+/*[13] Given an array arr[] of n elements filled with several 
+integers, some of them being zeroes, write a program to move 
+all the zeroes to the end.*/
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;

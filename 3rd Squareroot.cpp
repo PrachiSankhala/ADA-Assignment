@@ -1,4 +1,5 @@
-#include <iostream>
+/*[3] Write a program to compute and return the square root of 
+an integer num.*/
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -22,3 +23,6 @@ int main() {
     cout<<square(n);
 	return 0;
 }
+
+//input 64 
+//output 8

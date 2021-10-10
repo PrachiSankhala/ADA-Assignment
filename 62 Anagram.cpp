@@ -1,4 +1,4 @@
-/*Given two strings "s1" and "s2", Write a program to check 
+/*[62]Given two strings "s1" and "s2", Write a program to check 
 whether the two strings are an anagram of each other or not*/
 #include <iostream>
 #include<bits/stdc++.h>
@@ -24,3 +24,6 @@ int main() {
     cout << "Anagram";
 	return 0;
 }
+
+//input s1=abcde s2 baedc
+//output Anagram

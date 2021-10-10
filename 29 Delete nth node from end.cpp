@@ -1,7 +1,6 @@
 /*[29] You are given a linked list, write a program to remove 
 the n-th node from the end of the list and return the head of 
 the linked list.*/
-
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -9,19 +8,31 @@ struct node{
     int data;
     node* next;
 };
+void insertAtEnd(struct node **head, int val)
+{
+    struct node *newNode = new node();
+    newNode->data = val;
+    newNode->next = NULL;
+    if(*head == NULL)
+         *head = newNode;
+    else
+    {
+        struct node *lastNode = *head;
+        while(lastNode->next != NULL)
+            lastNode = lastNode->next;
+        lastNode->next = newNode;
+    }
+
+}
 int main() {
-    int n,k;
-    cin>>n;
+    int n,k,temp;
+    cin>>n>>k;
     node *head=NULL,*prev=head;
-	//enter in reverse order. Since insert at end function is used.
     for(int i=0;i<n;i++){
-        node* temp=new node();
-        cin>>temp->data;
-        temp->next=head;
-        head=temp;
+        cin>>temp;
+        insertAtEnd(&head,temp);
     }
     node* curr=head;
-    cin>>k;
     int c=n-k;
     if(c==0){
         head=head->next;
@@ -42,3 +53,6 @@ int main() {
     }
 	return 0;
 }
+
+//input 1 2 3 4 5 k=2
+//output  1 2 3 5

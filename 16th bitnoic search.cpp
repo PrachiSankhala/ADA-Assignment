@@ -1,3 +1,6 @@
+/*[16] Given a bitonic sequence arr[] of n distinct elements, 
+write a program to search a given element k in the bitonic 
+sequence.*/
 #include <iostream>
 using namespace std;
 int main() {
@@ -59,4 +62,4 @@ int main() {
 
 //input 5 2
 //      5 6 7 2 1 
-//output :- 3
+//output  3

@@ -1,3 +1,4 @@
+/*[4] Given two integers k and n, write a function to compute k^n.*/
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -22,3 +23,6 @@ int main() {
 	
 	return 0;
 }
+
+//input k=2 n=5
+//output 32

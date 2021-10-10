@@ -1,3 +1,5 @@
+/*[7] You are given an n x n 2D-matrix. Write a program to rotate 
+the matrix by 90 degrees.*/
 #include <iostream>
 using namespace std;
 

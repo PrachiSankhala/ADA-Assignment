@@ -1,3 +1,5 @@
+/*[1] Given a string s representing a roman numeral. Convert s
+into an integer.*/
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -25,3 +27,6 @@ int main() {
     cout<<sum;
 	return 0;
 }
+
+//input  MLIII     
+//output 1053

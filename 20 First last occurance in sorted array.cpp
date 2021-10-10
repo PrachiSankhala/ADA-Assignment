@@ -1,3 +1,7 @@
+/*[20]Given a sorted array arr[] with possibly duplicate elements, 
+write a program to find indexes of first and last occurrences 
+of a target element in the given array.*/
+
 #include <iostream>
 using namespace std;
 int main() {
@@ -32,3 +36,6 @@ int main() {
     }
 	return 0;
 }
+
+//input a= 1 2 3 3 3 4 5 
+//output   2 4

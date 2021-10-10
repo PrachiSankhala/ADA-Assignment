@@ -22,3 +22,6 @@ int main() {
     cout << "Not Exist";
 	return 0;
 }
+
+//input 1 2 3 3 3 3 4 
+//output 3

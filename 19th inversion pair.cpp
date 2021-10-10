@@ -1,3 +1,6 @@
+/*[19] Given an array of integers arr[], if i < j and arr[i] > arr[j] then 
+the pair (i, j) is called an inversion of arr[]. Write a program to 
+find the total number of inversion count in arr[].*/
 #include <iostream>
 using namespace std;
 int main() {

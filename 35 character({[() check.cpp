@@ -77,3 +77,6 @@ int main() {
     
 	return 0;
 }
+
+//input s={[()]}
+//output valid

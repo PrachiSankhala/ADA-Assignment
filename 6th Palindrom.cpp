@@ -1,3 +1,5 @@
+/*[6] Given an integer num, write a program to find the closest 
+palindrome to integer num.*/
 #include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -36,3 +38,6 @@ int main() {
     cout<<palindrom(n);
 	return 0;
 }
+
+//input 12 
+//output 11

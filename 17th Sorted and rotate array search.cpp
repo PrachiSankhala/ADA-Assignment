@@ -1,3 +1,6 @@
+/*[17] You have a sorted and rotated array arr[] of size n where 
+elements are sorted and rotated circularly. Write a program to 
+find the minimum element in the array.*/
 #include <iostream>
 using namespace std;
 
@@ -20,3 +23,6 @@ int main() {
     cout<<s;
 	return 0;
 }
+
+//input a=4 5 1 2 3 
+//output 1
